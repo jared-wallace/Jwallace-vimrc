@@ -22,6 +22,7 @@ Plugin 'tomasr/molokai'
 Plugin 'kien/ctrlp.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'scrooloose/nerdtree'
+Plugin 'myusuf3/numbers.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
