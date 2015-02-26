@@ -40,7 +40,7 @@ filetype plugin indent on    " required
 
 set background=dark
 set term=xterm
-colorscheme baycomb
+colorscheme solarized
 syntax on
 set history=1000
 set backup " Backups are nice ...
@@ -49,6 +49,9 @@ if has('persistent_undo')
     set undolevels=1000 " Maximum number of changes that can be undone
     set undoreload=10000 " Maximum number lines to save for undo on a buffer reload
 endif
+set backupdir=./.backup,/tmp,.
+set undodir=./.backup,/tmp,.
+set directory=./.backup,/tmp,.
 set backspace=indent,eol,start " Backspace for dummies
 set linespace=0 " No extra spaces between rows
 set nu " Line numbers on
